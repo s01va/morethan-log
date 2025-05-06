@@ -3,8 +3,8 @@ const CONFIG = {
   profile: {
     name: "s01va",
     image: "/profileImage.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
+    role: "Fullstack developer",
+    bio: "Infra-friendly Developers",
     email: "jinn0525@gmail.com",
     linkedin: "yejin-joo-a96025130",
     github: "s01va",
@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "s01va's devlog",
-    description: "Hi!",
+    description: "문제해결 일기 + 개발후기",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
@@ -36,13 +36,13 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
