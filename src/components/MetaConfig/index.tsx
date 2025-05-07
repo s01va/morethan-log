@@ -36,6 +36,8 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
           <meta property="article:author" content={CONFIG.profile.name} />
         </>
       )}
+      { /* For Google Adsense */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1418443722497332" crossOrigin="anonymous"></script>
     </Head>
   )
 }
